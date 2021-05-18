@@ -1,0 +1,88 @@
+
+/* ! NAVBAR */
+
+.border_thick{
+border:2px solid #BD2130;
+}
+
+.navbar-brand img{
+    height: 8rem;
+    width: 8rem;
+}
+
+.dropdown-toggle.basket::after{
+    content: none;
+}
+
+.check_produit{
+    display: none;
+}
+.dropdown-toggle:hover{
+text-decoration: none;
+}
+
+.display-5{
+    font-size: 1.2rem;
+}
+
+
+.fas.fa-shopping-basket,.fa-sort-amount-up-alt,.fa-sort-amount-down{
+    font-size: 1.5rem;
+}
+
+
+.custom-select{
+    width: 10%;
+}
+
+.card-img-top{
+    height: 15rem;
+}
+
+
+.card-text{
+    height: 70%;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: #495057;
+    text-decoration: none;
+    border: 2px solid #BD2130;
+    background-color: #f8f9fa;
+}
+
+.title_produit{
+   font-size:1rem;
+}
+
+.col-lg-3{
+    padding-right: 0;
+}
+
+.badge-primary{
+    background-color: transparent;
+}
+
+.search-box .form-control{
+    border-radius: .25rem 0 0 .25rem;
+}
+
+.search-box .btn{
+    border-radius: 0;
+}
+
+
+
+/* .col-produit a .fa-plus{
+    transition: transform 1s ease;
+}
+
+
+.col-produit a:hover .fa-plus{
+transform: rotate(360deg) scale(1.3);
+
+} */
+
+tbody {
+  padding-bottom: -.6rem;
+}
