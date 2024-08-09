@@ -6,7 +6,6 @@ session_start();
 
 
 $arr_produit = isset($_SESSION['infos_produit']) ? $_SESSION['infos_produit'] : array();
-<<<<<<< HEAD
 $data = array(); // Initialize the $data array
 
 
@@ -60,45 +59,5 @@ if(isset($_POST["action"])=="load_card"){
 }
 
 echo json_encode($data);
-=======
-
-if ($_POST['count'] == "ok") {
-            
-    echo json_encode(count($_SESSION['infos_produit']));
-  
-
-}
-
-
-
-else{
-
-
- if (isset($_POST['produit_ref'])){
-
-    $newref=$_POST['produit_ref'];
-
-    $new_order=array(
-
-        $newref=>array(
-
-            'name'=>$_POST['produit_name'],
-            'prix'=>floatval($_POST['produit_prix']),
-            'qte'=>floatval($_POST['produit_qte'])
-        )
-    );
-         array_push($arr_produit,$new_order);
-    
-        $_SESSION['infos_produit']=$arr_produit;
-
-
-
-}
-
-
-echo json_encode($_SESSION['infos_produit']);
-}
-
->>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
 
 ?>
