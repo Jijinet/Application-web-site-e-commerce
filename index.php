@@ -2,7 +2,12 @@
 session_start();  
 
 include("controllers/connexion.php");  
+<<<<<<< HEAD
 include_once("controllers/import_produit.php"); 
+=======
+include("controllers/import_produit.php"); 
+ 
+>>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
 ?>
 
 <!DOCTYPE html>
@@ -154,7 +159,11 @@ include_once("controllers/import_produit.php");
 
         <!-- Cart Modal -->
 
+<<<<<<< HEAD
         <div id="cardModal"  class="modal  fade bd-example-modal-lg p-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+=======
+        <div class="modal fade bd-example-modal-lg p-4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+>>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
             aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content shop_card">
@@ -188,7 +197,11 @@ include_once("controllers/import_produit.php");
                     <p class="py-5 text-center font-weight-bold empty">Your card is empty!</p>
                    
                     <div class="modal-footer d-flex justify-content-between">
+<<<<<<< HEAD
                        <p class='checkout_msg text-center'></p>
+=======
+                       <p class='checkout_msg'></p>
+>>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
                         <div>
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                           <button type="button" class="btn btn-success valider" onclick="checkout();">Valider</button>
@@ -242,7 +255,11 @@ include_once("controllers/import_produit.php");
       <div class="row">
         <div class="col-12 col-lg-9 d-flex align-items-center justify-content-center mt-3">
           <nav aria-label="...">
+<<<<<<< HEAD
             <ul class="pagination pagination-sm page_pagination" >
+=======
+            <ul class="pagination pagination-sm page_pagination ">
+>>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
             </ul>
           </nav>
         </div>

@@ -39,10 +39,14 @@ text-decoration: none;
     height: 15rem;
 }
 
+<<<<<<< HEAD
 .username{
     color:#007bff !important;
     cursor: pointer;
 }
+=======
+
+>>>>>>> b13c5c05b233a0dc126a151d38b4f2eab9f63ebd
 .card-text{
     height: 70%;
 }
